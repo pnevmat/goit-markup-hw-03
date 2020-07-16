@@ -1,4 +1,8 @@
 /* Styles for index.html */
+/* main */
+.main {
+    text-align: center;
+}
 /* hero */
 .header {
     background-color: #757575;
@@ -9,6 +13,9 @@
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+
+    margin-bottom: 30px;
+    outline: 2px solid tomato;
 }
 .button {
     background-color: var(--primary-page-color);
@@ -16,15 +23,19 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
-    text-align: center;
     letter-spacing: 0.06em;
     text-decoration: none;
+
+    outline: 2px solid tomato;
 }
 /* sections */
 .section {
     color: #212121;
     font-weight: 700;
     line-height: 1.14;
+
+
+    outline: 2px solid lime;
 }
 .section-header {
     background-color: var(--secondary-page-color);
@@ -34,11 +45,17 @@
     text-align: center;
     letter-spacing: 0.03em;
     text-transform: none;
+
+    margin-bottom: 50px;
+    outline: 2px solid tomato;
 }
 .features {
     font-weight: 700;
     font-size: 14px;
     text-transform: uppercase;
+
+    margin-bottom: 10px;
+    outline: 2px solid tomato;
 }
 .features.customize {
     background-color: #757575;
@@ -48,21 +65,44 @@
     color: #757575;
     font-weight: 400;
     line-height: 1.71;
+
+    outline: 2px solid tomato;
 }
 .teammate-name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
+
+    margin-bottom: 10px;
+    outline: 2px solid tomato;
 }
 .teammate-name.section-text {
     font-weight: 400;
+
+    margin-bottom: 16px;
 }
 .section-link {
     color: #AFB1B8;
     text-decoration: none;
+
+    outline: 2px solid tomato;
 }
 .section-link:hover, .section-link:focus {
     color: var(--primary-page-color);
+}
+.conteiner {
+    margin: 0 auto 94px auto;
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 2px solid tomato;
+}
+.team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.photo-margin {
+    margin-bottom: 30px;
 }
 /* Styles for portfolio.html */
 /* main */
@@ -87,12 +127,14 @@
     font-size: 18px;
     line-height: 2.00;
     letter-spacing: 0.06em;
+    outline: 2px solid tomato;
 }
 .portfolio-text {
     color: #757575;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
+    outline: 2px solid tomato;
 }
 .portfolio-text.hover {
     background-color: rgba(33, 150, 243, 0.9);
