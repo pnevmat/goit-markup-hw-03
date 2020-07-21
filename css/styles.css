@@ -137,6 +137,9 @@
     background-color: var(--primary-page-color);
     color: var(--secondary-text-color);
 }
+.ul.portfolio-button {
+    justify-content: center;
+}
 /* portfolio */
 .portfolio-header {
     color: var(--primary-text-color);
@@ -159,10 +162,28 @@
     font-size: 18px;
     line-height: 1.56;
 }
+.portfolio-image {
+    /* вместо 370px */
+    width: 360px;
+}
 .header-conteiner.customize {
     margin: 0 auto 94px auto;
 }
 .conteiner.customize {
     margin: 0 auto 34px auto;
     padding: 0 0 16px 0;
+}
+.portfolio.conteiner {
+    margin-right: auto;
+    margin-left: auto;
+}
+.portfolio.items {
+    /* вместо 370px */
+    width: 360px;
+}
+.ul.portfolio:nth-child(n+1) {
+    flex-wrap: wrap;
+}
+.ul .portfolio:nth-child(3n) {
+    margin-right: 0px;
 }
