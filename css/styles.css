@@ -1,8 +1,4 @@
 /* Styles for index.html */
-/* main */
-.main {
-    text-align: center;
-}
 /* hero */
 .header {
     background-color: #757575;
@@ -27,6 +23,10 @@
     text-decoration: none;
 
     outline: 2px solid tomato;
+}
+/* main */
+.main {
+    text-align: center;
 }
 /* sections */
 .section {
