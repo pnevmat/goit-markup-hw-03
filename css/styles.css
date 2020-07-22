@@ -72,7 +72,7 @@
 }
 .conteiner {
     margin: 0 auto 94px auto;
-    width: 1170px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     outline: 2px solid tomato;
@@ -80,11 +80,15 @@
 /* .image {
     width: 352px;
 } */
+
 .ul .items {
     align-items: flex-start;
 }
 .ul .items:not(:last-child) {
     margin-right: 30px;
+}
+.items-width {
+    width: 270px;
 }
 .ul .team-item:not(:last-child) {
     margin-right: 10px;
@@ -162,10 +166,6 @@
     font-size: 18px;
     line-height: 1.56;
 }
-.portfolio-image {
-    /* вместо 370px */
-    width: 360px;
-}
 .header-conteiner.customize {
     margin: 0 auto 94px auto;
 }
@@ -178,8 +178,7 @@
     margin-left: auto;
 }
 .portfolio.items {
-    /* вместо 370px */
-    width: 360px;
+    width: 370px;
 }
 .ul.portfolio:nth-child(n+1) {
     flex-wrap: wrap;
